@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
     res.send('Simple API to call un message "Hello World"');                   
 });
 
-app.get('/test', (req, res) => {                                // Api to send a data JSON , being "message"
+app.get('/test', (req, res) => {
     res.json({message: 'Test : this is the message from server'});
 });
 
