@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "BlocNote - using React for FrontEnd and ExpressJS for BackEnd",
   "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "type": "module",
   "scripts": {
     "server": "node server.js",
