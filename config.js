@@ -1,7 +1,7 @@
 
 export const config = {
-    host: 'localhost',
-    user: 'root',
-    password: 'Juncceun',
-    database: 'blocnote'
+    host: 'node88-eu.n0c.com',
+    user: 'urhpgvnk_admin',
+    password: 'Blocnote21000+',
+    database: 'urhpgvnk_blocnote'
 }
