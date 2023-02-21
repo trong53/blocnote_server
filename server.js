@@ -1,12 +1,6 @@
 import express from 'express';
-import mysql from 'mysql';
-import bodyParser from 'body-parser';
 
 const app = express();
-app.use(bodyParser.json());                 // support  encoded Json
-app.use(bodyParser.urlencoded({             // support  encoded URL
-    extended: true
-}));
 
 app.get('/', (req, res) => {
     res.send('Simple API to call un message "Hello World"');                   
